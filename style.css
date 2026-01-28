@@ -1,0 +1,54 @@
+/* sampul */
+
+body {
+    background-image: url(img/sampul.jpg);
+    background-size: cover;      /* biar full layar & rapi */
+    background-position: center;
+    background-repeat: no-repeat;
+
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+
+    display: flex;
+    justify-content: center;  /* tengah horizontal */
+    align-items: center;      /* tengah vertikal */
+    min-height: 100vh;        /* PENTING */
+}
+
+.container {
+  max-width: 600px;
+  padding: 30px;
+  text-align: center;
+}
+
+h1, h3 {
+  color: #d63384;
+}
+
+h2 {
+    color: cornflowerblue;
+}
+
+.page {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  background-color: #d63384;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #b02a6b;
+}
