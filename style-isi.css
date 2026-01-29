@@ -1,13 +1,13 @@
 
 
 body {
-    background-image: url(img/weeding.jpg);
+    background-image: url(img/berdiri.jpg);
     background-size: cover;      /* biar full layar & rapi */
     background-position: center;
     background-repeat: no-repeat;
 
     margin: 0;
-    min-height: 100vh;
+    min-height: 180px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +15,7 @@ body {
 
 /*CARD UNDANGAN*/
 .container {
-    background:rgba(255, 253, 255, 0.863);
+    background: transparent;
     max-width: 720px;
     width: 90%;
     padding: 50px 45px;
@@ -54,7 +54,7 @@ body {
 }
 
 .foto-pengantin {
-    width: 50%;          /* UBAH ANGKA INI kalau mau lebih kecil/besar */
+    width: 80%;          /* UBAH ANGKA INI kalau mau lebih kecil/besar */
     height: auto;
     display: block;
     margin: 20px auto;
@@ -127,3 +127,91 @@ audio {
     left: 0;
     pointer-events: none;
 }
+
+.message {
+  background: #fff0f6;
+  color:#6b8f71;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+
+/* pesan teks biasa */
+p {
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* box message */
+.message {
+  background: #ffe6f0;
+  color: #c2185b;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: 500;
+  margin: 15px auto;
+  max-width: 400px;
+}
+
+/* tombol */
+button {
+  display: block;
+  margin: 10px auto;
+  background: #d63384;
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  font-size: 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #b82d6f;
+}
+
+/* input pesan */
+input[type="text"] {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 80%;
+  max-width: 350px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+/* hasil pesan */
+#pesan,
+#hasil {
+  text-align: center;
+  margin-top: 10px;
+  font-style: italic;
+  color: #555;
+}
+
+/* ucapan doa */
+.ucapan {
+  background: white;
+  margin: 25px auto;
+  padding: 20px;
+  max-width: 450px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.ucapan h3:first-child {
+  color: #d63384;
+  margin-bottom: 10px;
+}
+
+.ucapan h3:last-child {
+  font-weight: normal;
+  color: #555;
+}
+

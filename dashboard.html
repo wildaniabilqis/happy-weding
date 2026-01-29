@@ -10,8 +10,8 @@
 <body>
 
     <!--audio-->
-        <audio id="musik" controls autoplay loop>
-        <source src="musik.mp3" type="audio/mpeg">
+        <audio id="music" controls autoplay loop>
+        <source src="music.mp3" type="audio/mpeg">
         browser anda tidak mendukung elemen audio.
         </audio>
 
@@ -30,9 +30,14 @@
                 <h2>ℬ𝒶ℯ ℋ𝓎𝓊𝓃-𝒮𝓊𝓃ℊ & 𝒲𝒾𝓁𝒹𝒶𝓃𝒾𝒶 ℬ𝒾𝓁𝓆𝒾𝓈 𝒜𝓇𝓎𝒶𝓃𝓈𝓎𝒶𝒽 𝒮.𝓅𝒹 𝒮.𝓅</h2>
             </div>
 
-            <img class="foto-pengantin" src="wedding.jpg" alt="foto pengantin">
+            <img class="foto-pengantin" src="pengantin.jpg" alt="foto pengantin">
 
             <div class="divider"></div>
+
+             <div>
+                    <h3>𝘵𝘩𝘦 𝘴𝘵𝘰𝘳𝘺 𝘰𝘧 𝘩𝘰𝘸 𝘸𝘦 𝘧𝘪𝘳𝘴𝘵 𝘮𝘦𝘵</h3>
+                    <p>Awal kami berdua bertemu itu saat saya dan teman saya ke Cafe. Saat saya sedang berjalan tiba- tiba ada seorang laki-laki ganteng banget yang menyenggol saya dan saya pun terjatuh, si leleki ini pun mengulurkan tangnnya untuk menolong saya untuk berdiri. Kami pun saling tatap-tatapan, saat itulah hati kami saling berdebar tak karuan. Kami saling bertukar no.WA, IG dan kami pun saling bertukar cerita. Tidak menunggu waktu lama dia melamar saya dihadapan banyak orang, dan saya menerima lamaran itu. Keluarga saya dan keluarga calon suami saya berkumpul untuk membahas acara pernikahan kami. Dan hari yang kami tunggu-tunggu akhirnya tibaa.   </p>
+            </div>
 
             <p class="event-title">Yang Insyaallah akan diselenggarakan pada:</p>
 
@@ -42,11 +47,60 @@
                 <p>⏰ Waktu : Pukul 10:00 WIB</p>
                 <p>🏡 Tempat : Di The Gaia Hotel (Bandung)</p>
 
-                <div>
-                <p>Merupakan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu kepada kami.</p>
-                <p>Wassalamualaikum warohmatullohi wabarokatuh</p>
+            <div>
+                <h3>Lokasi pesta</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.3882650454225!2d107.59808467410544!3d-6.843970766950312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e135072c50e7%3A0x189c0c83fb5b8391!2sThe%20Gaia%20Hotel%20Bandung!5e0!3m2!1sen!2sid!4v1769652876208!5m2!1sen!2sid"
+                width="600"
+                height="450" 
+                style="border:0;"
+                allowfullscreen="" 
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
             </div>
 
+                <div>
+                <p>Merupakan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu kepada kami.</p>
+                <h2>Wassalamualaikum warohmatullohi wabarokatuh</h2>
+            </div>
+
+            <p>Ini adalah pesan</p>
+            <div class="message">
+                Selamat datang di undangan kami
+            </div>
+
+            <script>
+                 alert("Selamat datang di website kami");
+            </script>
+            <button onclick="tampilPesan()">Klik Saya</button>
+
+            <p id="pesan"></p>
+
+            <script>
+            function tampilPesan() {
+                document.getElementById("pesan").innerHTML =
+                "Terima kasih sudah berkunjung ";
+            }
+            </script>
+
+            <input type="text" id="nama" placeholder="Tulis pesan">
+            <button onclick="kirimPesan()">Kirim</button>
+
+            <p id="hasil"></p>
+
+            <script>
+                function kirimPesan() {
+                let pesan = document.getElementById("nama").value;
+                document.getElementById("hasil").innerHTML =
+                "Pesan kamu: " + pesan;
+                }
+            </script>
+
+            <div class="ucapan">
+                <h3>Pesan & Doa</h3>
+                <h3>Semoga menjadi keluarga sakinah mawaddah warahmah 🤍</h3>
+            </div>
+           
         </div>
     </section>
 
